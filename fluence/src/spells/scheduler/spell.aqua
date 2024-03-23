@@ -2,9 +2,11 @@ aqua Scheduler
 
 -- Note: spell main function must be exported
 export spell
+use "../../aqua/main.aqua"
 
 import Spell from "@fluencelabs/spell/spell_service.aqua"
 
 func spell():
     Spell "scheduler"
+    -- run()
     Spell.store_log("Spell 'scheduler' is working!")

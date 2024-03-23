@@ -1,7 +1,6 @@
 aqua Deals declares *
 
-data Deal:
-    chainNetwork: string
+data TfFrameV0:
     chainNetworkId: u64
     dealId: string
     dealIdOriginal: string
@@ -9,9 +8,15 @@ data Deal:
     timestamp: string
 
 data Deals:
-    myDeployment: ?Deal
+    tfFrameV0: ?TfFrameV0
 
 func get() -> Deals:
     <- Deals(
-        myDeployment=nil
+        tfFrameV0=?[TfFrameV0(
+            definition="bafkreifibpjfhz3sgctsredvpxqai7zuocjlyokyh4fh2qfojvc3pnqx4e",
+            timestamp="2024-03-23T08:35:33.594Z",
+            dealIdOriginal="0xCe85503De9399D4dECa3c0b2bb3e9e7CFCBf9C6B",
+            dealId="ce85503de9399d4deca3c0b2bb3e9e7cfcbf9c6b",
+            chainNetworkId=31337
+        )]
     )

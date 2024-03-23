@@ -1,5 +1,6 @@
 [workspace]
 members = [
   "src/services/tfCard/tfCard",
-  "src/services/tfBarChart/tfBarChart"
+  "src/services/tfBarChart/tfBarChart",
+  "src/services/cioKubo/cioKubo"
 ]

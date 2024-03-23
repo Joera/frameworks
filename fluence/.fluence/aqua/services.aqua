@@ -7,3 +7,7 @@ service TfCard("tfCard"):
 
 service TfBarChart("tfBarChart"):
   greeting(name: string) -> string
+
+
+service CioKubo("cioKubo"):
+  greeting(name: string) -> string

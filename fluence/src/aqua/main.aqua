@@ -6,7 +6,7 @@ import "../../.fluence/aqua-dependencies/node_modules/@fluencelabs/aqua-ipfs/ipf
 
 import "./helpers.aqua"
 import "./types.aqua"
--- import "./services.aqua"
+import "./services.aqua"
 
 import Spell, Log from "../../.fluence/aqua-dependencies/node_modules/@fluencelabs/spell/spell_service.aqua"
 

@@ -1,0 +1,16 @@
+aqua Services declares *
+
+import "./types"
+
+
+
+service CioKubo("cioKubo"):
+  add(ipfs_api: string, content: string) -> string
+  addFolders(ipfs_api: string, path: string) -> string
+  get(ipfs_api: string, cid: string) -> string
+  getFolders(ipfs_api: string, cid: string, path_: string) -> string
+  inspectParticleVault() -> []string
+  inspectParticleVaultFolder(path: string) -> []string
+
+service TFBarChart("tfBarChart"):
+    render(d: []TFBar) -> AquaMarineResultV2

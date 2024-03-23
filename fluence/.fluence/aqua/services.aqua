@@ -1,0 +1,9 @@
+aqua Services declares *
+
+
+service TfCard("tfCard"):
+  greeting(name: string) -> string
+
+
+service TfBarChart("tfBarChart"):
+  greeting(name: string) -> string

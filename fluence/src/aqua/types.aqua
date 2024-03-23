@@ -1,0 +1,13 @@
+aqua Types declares *
+
+data AquaMarineResultV2:
+    success: bool
+    results: []string
+    error: ?string
+
+
+data TFBar:
+    label: string
+    time: string
+    value: u64
+    colour: string
